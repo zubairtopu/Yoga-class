@@ -9,7 +9,7 @@
         .right_design img{
             width: 307px;
             position: absolute;
-            right: -14px;
+            right: 25px;
         }
     }
     /* Large devices (desktops, 992px and up)*/
@@ -19,7 +19,7 @@
         }
         /* navbar section start */
         .w_custom{
-            width: 105%;
+            width: 101%;
         }
        /* chose section start */
        .right_design {
@@ -499,7 +499,7 @@
         /* footer section end */
     }
     /* extra small devices (portrait phones,less than 576px) */
-    @media(min-width:320px) and (max-width:575.98px){
+    @media(max-width: 575.98px) and (min-width: 320px){
         h1 {
             font-size: 39pt;
         }
@@ -562,13 +562,11 @@
             padding: 0 0px;
             font-size: 8pt;
         }
-        .c_design img {
-            width: 93%;
-        }
+
         .c_img img {
             position: absolute;
-            top: 12px;
-            left: 14px;
+            top: 10px;
+            left: 11px;
             width: 71%;
             transform: translate(8px, 4px);
         }
@@ -729,4 +727,28 @@
         }
         /* footer section end */
     }
-    
+    @media(min-width:375px) and (max-width:425px){
+        .chose_class {
+            height: 747px;
+            margin-top: 62px;
+        }
+        .banner_image img {
+            left: 106px;
+            height: 142px;
+            top: 34px;
+            transform: translate(35px, 1px);
+        }
+
+
+        .c_img img {
+            position: absolute;
+            top: 10px;
+            left: 16px;
+            width: 71%;
+            transform: translate(8px, 4px);
+        }
+        .card_content p {
+            margin-top: 0!important;
+            font-size: 11pt;
+        }
+    }
