@@ -1,0 +1,574 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo|Lato:400,700&display=swap');
+
+/*  font-family: 'Lato', sans-serif;
+    font-family: 'Baloo', cursive;  */
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none!important;
+}
+body{
+    background-color: #f4f9f4;
+}
+h1{
+    font-size: 56pt;
+    font-family: 'Baloo', sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+
+a{
+    color: #494f4e;
+}
+p{
+    
+font-size: large;
+    
+color: #F2F9F4;
+}
+/* navbar section start */
+.navbar-brand{
+    width: 106px;
+    height: 109px;
+    background: #a7d7c5;
+    text-align: center;
+    line-height: 4.5;
+    margin-right: 0;
+}
+.w_custom{
+}
+.nav-custom{
+    
+background: #e2ede8;
+    
+text-transform: capitalize;
+    
+font-weight: 700;
+}
+.nav-item{
+
+margin-right: 79px;
+}
+.nav-item:hover{
+    background-color: #c7d9d5;
+    color: #51605e!important;
+}
+.nav-link{
+    color: #494f4e;
+}
+.nav-link:hover{
+    color: #51605e;
+}
+/* navbar section end */
+
+/* banner section start */
+.image_content{
+
+/* height: 100px; */
+}
+.banner_image{
+    
+}
+.banner_image img{
+
+position: absolute;
+
+top: 106px;
+
+left: 124px;
+
+transform: translate(0px, 0px);
+
+height: 295px;
+}
+.banner_bg{
+
+}
+.banner_bg img{
+    
+position: relative;
+    
+width: 510px;
+}
+.banner_content {
+
+}
+.banner_content h1{
+
+margin-bottom: 0;
+
+color: #529995;
+}
+.banner_content p{
+    font-size: 12pt;
+    /* width: 410px; */
+    margin-bottom: 0;
+    padding: 0px 75px;
+    color: #63b3ac;
+}
+.btn_custom_1{
+    
+background-color: #63b3ac!important;
+    
+border-color: white;
+    
+padding: 1px 16px;
+    
+text-transform: uppercase;
+    
+border-radius: 10px;
+}
+
+/* banner section end */
+
+/* chose_class section start */
+.chose_class{
+    
+height: 900px;
+    
+background-color: #529995;
+    
+margin-top: 209px;
+    
+position: relative;
+}
+.right_design{
+    position: absolute;
+    top: -347px;
+    right: -206px;
+}
+.choose_content{
+
+margin-top: 120px;
+}
+.choose_content h1{
+
+color: white;
+}
+.choose_content p{
+    
+padding: 0 220px;
+}
+/* card start */
+
+.c_design{
+position: relative;
+}
+.c_design img {
+    width: 90%;
+}
+/* .m-custom_1{
+    margin-right: 134px;
+    margin-left: -46px;
+} */
+/* .m-custom_2{
+margin-right: 134px;
+} */
+/* .m-custom_3{
+
+} */
+.c_img img{
+    position: absolute;
+    top: 36px;
+    left: 35px;
+    width: 73%;
+}
+.card_content h3{
+    font-family: 'Baloo', cursive;
+    text-transform: uppercase;
+    color: white;
+}
+.card_content p{
+font-weight: 300;
+}
+
+/* card end */
+
+/* chose_class section end */
+
+/* our stats section start */
+.our_stats{
+    background-image: url(../images/our_stats_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 966px;
+}
+.d-contents{
+    display: contents;
+}
+.our_stats_content{
+
+/* margin: 137px 0; */
+
+margin-top: 120px;
+
+margin-bottom: 214px;
+}
+.our_stats_content h1{
+
+color: #529995;
+}
+.our_stats_content p{
+    
+color: #63b3ac;
+    
+padding: 0 220px;
+    
+font-weight: 400;
+}
+
+.our_stats_1{
+
+height: 271px;
+
+width: 271px;
+
+align-items: center;
+
+border: 5px solid;
+
+border-color: #63b3ac;
+
+border-radius: 134px;
+
+text-align: center;
+}
+.our_stats_1 h1{
+    font-family: unset;
+    font-weight: 400;
+    margin-top: 39px;
+    color: #63b3ac;
+}
+.our_stats_1 p{
+    
+color: #63b3ac;
+    
+font-weight: 400;
+}
+.custom_f_style{
+    font-family: 'Baloo', cursive!important;
+    margin-bottom: 0;
+    color: #63b3ac;
+}
+.custom_p{
+    
+padding: 0 42px;
+}
+/* our stats section end */
+
+/* best section start */
+.best{
+    background-image: url(../images/best.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 973px;
+    background-color: #63b3ac;
+}
+.best_content{
+    margin-top: 307px;
+}
+.best_content h1{
+
+}
+.best_content p{
+font-size: larger;
+font-weight: 400;
+margin-bottom: 28px;
+}
+.btn_custom_2{background: white;
+    color: #529995;
+    text-transform: uppercase;
+    font-weight: 900;
+    border-color: white!important;
+    padding: 10px 60px;
+}
+
+/* best section end */
+
+/* new_exp section start */
+.new_exp{
+  background-image: url(../images/d_3.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  background-position-y: -66px;
+  background-color: #F2F9F4;
+}
+
+.new_exp_img{
+
+margin: 62px 0;
+
+margin-left: -65px;
+}
+.new_exp_content{
+
+margin-left: 96px;
+}
+.new_exp_content h1{
+
+color: #63b3ac;
+}
+.new_exp_content p{
+
+color: #63b3ac;
+}
+.btn_custom_3{
+    background: #529995;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900;
+    border-color: white!important;
+    padding: 10px 60px;
+}
+.new_exp_bg{
+    
+}
+.new_exp_bg img{
+
+}
+/* new_exp section end */
+
+/* pricing section start */
+.pricing{
+    background-color: #63B3AC;
+}
+.pricing_content{
+
+margin-top: 82px;
+
+margin-bottom: 45px;
+}
+.pricing_content h1{
+    
+text-transform: capitalize;
+}
+.pricing_content p{
+    padding: 0 220px;
+}
+/* card section */
+.card_custom{
+    width: 371px;
+    background-color: #F2F9F4;
+    height: 386px;
+    margin-bottom: 69px!important;
+}
+.card-body{
+    
+text-align: center;
+    
+padding: 20px 0;
+}
+.card-title{
+    font-family: 'Baloo', sans-serif;
+    color: #63B3AC;
+    font-size: 26pt;
+    text-align: center;
+    text-transform: capitalize;
+}
+.icon_custom{
+
+font-size: 88pt;
+
+margin-bottom: 20px;
+
+color: #63B3AC;
+}
+.card-text{
+
+color: #63B3AC;
+
+margin-bottom: 0;
+}
+.btn_custom_4{
+    background: #529995;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900;
+    border-color: white!important;
+    padding: 10px 60px;
+}
+/* pricing section end */
+
+/* trainer section start */
+.trainer{
+    background-image: url(../images/trainer_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.traner_img_content{
+
+position: relative;
+
+margin-top: 75px;
+}
+.tr_img{
+
+position: absolute;
+
+top: 43px;
+
+left: 110px;
+}
+.trainer_content{
+
+margin-bottom: 180px;
+
+margin-top: 25px;
+}
+.trainer_content h2{
+    font-family:sans-serif;
+    font-weight: 100;
+    color: #63B3AC;
+}
+.trainer_content p{
+    
+color: #63B3AC;
+    
+font-family: Baloo;
+    
+text-transform: capitalize;
+    
+font-size: 31pt;
+    
+font-weight: inherit;
+}
+/* trainer section end */
+
+/* email section start */
+.email{
+    background-color: #529995;
+}
+.email_content{
+
+}
+.email_content h1{
+
+font-size: 39pt;
+}
+.email_input{
+
+}
+.email_input p{
+
+}
+.input-group{
+    
+position: relative;
+    
+margin-bottom: 108px!important;
+}
+.form-control{
+
+border-radius: 38px;
+
+/* width: 15px!important; */
+
+border-top-right-radius: 38px!important;
+
+border-bottom-right-radius: 38px!important;
+}
+.input-group-append{
+
+width: 106px;
+
+position: absolute;
+
+right: 0;
+
+transform: translateX(-0px);
+}
+.btn_custom_5{
+    
+border-radius: 38px;
+    
+background: #F2F9F4;
+    
+color: #529995;
+    
+border-color: #F2F9F4;
+    
+border-top-left-radius: 38px!important;
+    
+border-bottom-left-radius: 38px!important;
+    
+width: 106px;
+    
+font-weight: 700;
+}
+/* email section end */
+
+/* footer section start */
+footer{
+
+padding: 60px 0;
+}
+.titel_content{
+
+}
+.titel_content h4{
+
+color: #529995;
+font-family: 'Baloo', cursive;
+
+text-transform: capitalize;
+}
+.titel_content p{
+
+color: #529995;
+}
+.list{
+
+}
+.list p{
+    font-family: 'Baloo', cursive;
+    color: #529995;
+    text-transform: capitalize;
+    margin-bottom: 17px;
+}
+.list ul{
+
+
+}
+.list li{
+
+margin-bottom: 11px;
+}
+.list a{
+
+color: #529995;
+
+text-transform: capitalize;
+}
+.list i{margin-right: 9px;}
+.icon_custom_1{
+    
+width: 29px;
+    
+height: 29px;
+    
+text-align: center;
+    
+color: white;
+    
+background: #529995;
+    
+font-size: 16pt;
+    
+border-radius: 19px;
+    
+padding-top: 3px;
+}
+.f_cus{
+    
+padding-top: 5px;
+}
+/* footer section end */
+
+/* animated css */
+
+/* animated css */
